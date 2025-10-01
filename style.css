@@ -1,0 +1,22 @@
+body {
+    /* Font */
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* More for font */
+.pixelify {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Projecten-Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolommen */
+    grid-template-rows: repeat(2, auto);  /* 2 rijen */
+    gap: 20px;
+}
