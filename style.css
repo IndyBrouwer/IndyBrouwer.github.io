@@ -19,6 +19,14 @@ h1 {
     margin-bottom: 1vh;
 }
 
+h2 {
+    text-align: center;
+}
+
+.Main-Container {
+    width: 60vw;
+}
+
 .Projecten-Grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 kolommen */
